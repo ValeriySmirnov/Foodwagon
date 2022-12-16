@@ -124,7 +124,7 @@
 
 .circle {
   grid-row: 2/3;
-  align-items: end;
+  align-items: start;
 }
 .food_sale_container {
   display: grid;
@@ -969,9 +969,6 @@
       .features__card-elements {
         grid-template-columns: 1fr;
         justify-self: center;
-      }
-      .circle {
-        align-items: center;
       }
     }
     @media screen and (max-width: 471px) {
