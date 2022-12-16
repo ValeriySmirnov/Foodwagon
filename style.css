@@ -974,12 +974,14 @@
     @media screen and (max-width: 471px) {
       .header__order-card {
         padding: 2px;
+        max-width: max-content;
       }
       .header {
         height: 900px;
       }
       .header__input {
-        width: 200px;
+        font-size: 18px;
+        width: 167px;
       }
       .Featured-Restaurants__foodworld {
         max-width: 100%;
