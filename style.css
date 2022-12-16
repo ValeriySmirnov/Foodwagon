@@ -28,6 +28,7 @@
   font-size: 18px;
   justify-self: start;
   align-self: center;
+  color: black;
   /* max-width: 150px; */
 }
 .top-nav__user {
