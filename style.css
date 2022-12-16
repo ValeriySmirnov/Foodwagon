@@ -1,0 +1,1052 @@
+.wrapper {
+  max-width: 1920px;
+  min-width: 280px;
+}
+.top-nav {
+  display: grid;
+  grid-template-columns: 0.5fr 6.5fr 2.5fr 0.5fr;
+  grid-template-rows: 88px;
+  align-items: center;
+}
+.top-nav__search-and-login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+  justify-self: end;
+  /* border: 2px solid sienna; */
+}
+.top-nav__logo {
+  grid-column: 2;
+  align-self: center;
+  /* max-width: 170px; */
+}
+.top-nav__search {
+  /* padding: 7px 0; */
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  justify-self: start;
+  align-self: center;
+  /* max-width: 150px; */
+}
+.top-nav__user {
+  padding: 10px 0;
+  background-color: white;
+  border: none;
+  box-shadow: 0 0 10px #ffb20e;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffb800;
+  /* max-width: 130px; */
+}
+.header {
+  display: grid;
+  grid-template-columns: 0.5fr 5fr 4fr 0.5fr;
+  background: #ffb30e;
+  height: 575px;
+}
+.header__header-left {
+  grid-column: 2/3;
+}
+.header__header-right {
+  align-self: end;
+  /* display: grid;
+  grid-template-rows: 0.5fr 1.8fr; */
+}
+.header__title {
+  font-size: 88px;
+  margin-bottom: 0;
+  color: white;
+}
+.header__subtitle {
+  font-size: 23px;
+  color: #504f4f;
+}
+.header__order-card {
+  background: white;
+  max-width: 510px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.header__adress {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 30px;
+}
+.header__button_delivery {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f17228;
+  background-color: white;
+  border: 2px solid #f17228;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.header__button_pickup {
+  font-size: 18px;
+  font-weight: bold;
+  color: #757575;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.header__input {
+  border-radius: 5px;
+  color: #9e9e9e;
+  font-size: 22px;
+  border: 2px solid #9e9e9e;
+  background-color: #f5f5f5;
+  padding: 8px 10px;
+}
+.header__adress-container {
+  display: grid;
+  grid-template-columns: 0.5fr 5fr;
+}
+.header__local_img {
+  align-self: center;
+  justify-self: center;
+}
+.header__button_find_food {
+  font-size: 18px;
+  background: linear-gradient(180deg, #ff7a7a, #f65900);
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  align-self: end;
+  height: 46px;
+  margin-left: 5px;
+}
+
+.circle {
+  grid-row: 2/3;
+  align-items: end;
+}
+.food_sale_container {
+  display: grid;
+  grid-template-columns: 0.5fr 2.25fr 2.25fr 2.25fr 2.25fr 0.5fr;
+  justify-items: center;
+  column-gap: 10px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.food_sale_container__discount {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 140px;
+  height: 83px;
+  background-color: #ffb30e;
+  font-size: 62px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 102px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  color: white;
+  padding: 10px 0 0 10px;
+}
+
+/* .food_sale_container__photo {
+  max-width: 100%;
+} */
+.food_sale_container__percentandOff {
+  font-size: 32px;
+}
+.food_sale_container__Greys_Vage {
+  color: #424242;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 32px;
+}
+.food_sale_container__6_Days_Remaining {
+  background-color: #fce3d4;
+  color: #f17228;
+  font-size: 26px;
+  font-weight: bold;
+  width: 220px;
+  border-radius: 10px;
+  padding: 5px 0 5px 10px;
+}
+.food_sale_container__photo {
+  border-radius: 25px;
+}
+.food_sale_container__block_1 {
+  grid-column: 2/3;
+}
+.sale-elements {
+  display: grid;
+  position: relative;
+}
+.How_Does_It_Work {
+  /*   border: 2px solid red; */
+  /* margin-top: 0; */
+  background: linear-gradient(to bottom, #fdedca 20%, white);
+}
+.How_Does_It_Work__title {
+  display: grid;
+  justify-items: center;
+  padding-top: 80px;
+  color: #f17228;
+  font-size: 43px;
+}
+.How_Does_It_Work__container {
+  display: grid;
+  grid-template-columns: 0.5fr 2.25fr 2.25fr 2.25fr 2.25fr 0.5fr;
+  justify-items: center;
+  padding-top: 71px;
+  padding-bottom: 70px;
+}
+.How_Does_It_Work__select_location {
+  grid-column: 2/3;
+}
+.element {
+  /*   display: grid; */
+  text-align: center;
+  max-width: 307px;
+}
+.How_Does_It_Work__title_h3 {
+  color: #434343;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 50px 0 5px 0;
+}
+.How_Does_It_Work__subtitle {
+  color: #d9d9d9;
+  font-size: 18px;
+}
+.Popular_items__title {
+  color: #212121;
+  text-align: center;
+  font-size: 43px;
+}
+
+.Popular_items__container {
+  display: grid;
+  grid-template-columns: 0.5fr 1.8fr 1.8fr 1.8fr 1.8fr 1.8fr 0.5fr;
+  gap: 10px;
+  justify-items: center;
+  padding-top: 88px;
+  /*   text-align: center; */
+}
+.Popular_items__arrow {
+  align-self: center;
+  justify-self: end;
+}
+.Popular_items__arrow2 {
+  align-self: center;
+  justify-self: start;
+  /*   padding-left: 40px; */
+}
+.Popular_items__title_h3 {
+  color: #212121;
+  font-size: 23px;
+  margin: 5px 0 0 0;
+}
+.Popular_items__adress {
+  color: #ffb30e;
+  font-size: 23px;
+}
+.Popular_items__price {
+  color: #212121;
+  font-size: 23px;
+  font-weight: bold;
+}
+.Popular_items__button {
+  width: 283px;
+  height: 60px;
+  background-color: #f17228;
+  color: white;
+  border-radius: 5px;
+  border-color: #f17228;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.Popular_items__photo-food {
+  border-radius: 30px;
+}
+.proba {
+  display: grid;
+  grid-template-columns: 2% 96% 2%;
+}
+.Featured-Restaurants__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(358px, 1fr));
+  grid-column: 2;
+  row-gap: 10px;
+}
+.Featured-Restaurants__title {
+  text-align: center;
+  padding: 80px 0;
+  font-size: 43px;
+  font-weight: bold;
+}
+.element-column {
+  /*   grid-column: 2; */
+  /* border: 2px solid yellow; */
+  position: relative;
+  justify-self: center;
+}
+
+.Featured-Restaurants__discount-and-fast {
+  display: grid;
+  grid-template-columns: 0.3fr 1.5fr 1fr 0.2fr;
+  gap: 5px;
+  position: absolute;
+  bottom: 390px;
+}
+.Featured-Restaurants__discount {
+  /* border: 2px solid blue; */
+  text-align: center;
+  padding: 5px 15px;
+  grid-column: 2;
+  border-radius: 5px;
+  background-color: #f17228;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+.Featured-Restaurants__fast {
+  /* border: 2px solid red; */
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  background: #ffb30e;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.Featured-Restaurants__Restaurants-container {
+  display: grid;
+  /* border: 2px solid red; */
+  grid-template-columns: 0.8fr 0.15fr 2.5fr 0.2fr 0.2fr;
+  padding: 15px 0;
+}
+.Featured-Restaurants__name {
+  font-size: 18px;
+  margin: 7px 0;
+  color: #212121;
+  font-weight: bold;
+  font-size: 22px;
+}
+.Featured-Restaurants__opening {
+  /* border: 2px solid red; */
+  color: #f17228;
+  /* background: #; */
+  width: max-content;
+  padding: 5px;
+  border-radius: 10px;
+}
+.Featured-Restaurants__button-view-all {
+  display: grid;
+  width: max-content;
+  margin: 0 auto;
+  margin-top: 88px;
+}
+.Featured-Restaurants__button {
+  padding: 10px 18px;
+  background-color: #ffba26;
+  color: white;
+  border: none;
+  box-shadow: 0 0 10px #ffb20e;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.Featured-Restaurants__foodworld {
+  border-radius: 20px;
+}
+.Featured-Restaurants__stars {
+  font-size: 26px;
+  color: #ffb30e;
+}
+.Featured-Restaurants__name-restaurants {
+  grid-column: 3;
+}
+.Featured-Restaurants__opening-now {
+  background: rgba(121, 185, 60, 0.2);
+  width: max-content;
+  color: #79b93c;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 22px;
+}
+.Featured-Restaurants__opening-tomorrow {
+  background: rgba(241, 114, 40, 0.2);
+  width: max-content;
+  color: #f17228;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 22px;
+}
+.Search-by-food {
+  display: grid;
+  /* max-width: 1920px; */
+  grid-template-columns: 8% 84% 8%;
+  /* border: 2px solid red; */
+  background: #fefaf1;
+  padding: 60px 0;
+  margin: 80px 0 0 0;
+}
+.Search-by-food__header {
+  display: grid;
+  grid-column: 2;
+  grid-template-columns: 78% 10% 12%;
+  align-items: center;
+  row-gap: 10px;
+  margin-bottom: 60px;
+}
+
+.Search-by-food__button {
+  justify-self: end;
+}
+.Search-by-food__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(218px, auto));
+  justify-content: space-between;
+  row-gap: 10px;
+  grid-column: 2;
+}
+
+.Search-by-food__name-items {
+  text-align: center;
+  color: #424242;
+  font-size: 22px;
+  font-weight: bold;
+}
+.Search-by-food__View-all-element {
+  justify-self: end;
+}
+.Search-by-food__View-all {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffb800;
+}
+.features {
+  background: #feefd0;
+}
+.features__wrapper {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+}
+.features__card {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  background: white;
+  border-radius: 20px;
+  padding: 40px 55px;
+  margin: 130px 0 80px 0;
+  gap: 20px;
+}
+.features__card-elements {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
+.features__names {
+  align-self: center;
+  font-size: 22px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #fb3c00, #ffb800);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.border {
+  border-right: 1.5px solid #cfcfcf;
+}
+.app-download {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+}
+.app-download__wrapper {
+  grid-column: 2;
+  display: grid;
+  gap: 100px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.app-download__button_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+}
+.app-download__market_description {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+.app-download__title {
+  font-size: 68px;
+  font-weight: bold;
+  color: #ffb800;
+  margin-bottom: 0;
+}
+.app-download__description {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  font-size: 18px;
+  font-weight: bold;
+  color: #827e7e;
+}
+.app-download__button {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  text-decoration: none;
+  background: white;
+  width: max-content;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+.MarketDownload {
+  align-self: center;
+}
+.app-download__MarketDownload {
+  font-size: 16px;
+  font-weight: bold;
+  color: #827e7e;
+  margin: 0;
+  padding: 0;
+}
+.app-download__MarketDownload_name {
+  font-size: 25px;
+  font-weight: bold;
+  color: #212121;
+  margin: 0;
+  padding: 0;
+}
+.app-download__MarketDownload {
+  align-self: end;
+}
+.goole-play {
+  justify-self: end;
+}
+.details__wrapper {
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+}
+.detail__container {
+  margin-top: 80px;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  background: white;
+  box-shadow: 0 0 30px #9e9e9e;
+  border-radius: 20px;
+  /* border: 1px solid red; */
+}
+.detail__img {
+  border-radius: 0 20px 20px 0;
+  width: 100%;
+}
+.detail__description {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 8% 84% 8%;
+}
+.detail__title {
+  font-size: 43px;
+  font-weight: bold;
+  color: #353535;
+  margin-bottom: 10px;
+}
+.detail__subtitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #616161;
+}
+.detail__titles {
+  grid-column: 2;
+  align-self: end;
+  /* grid-row: 3; */
+}
+.detail__button {
+  grid-column: 2;
+  height: max-content;
+  align-self: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 0;
+  background: linear-gradient(to left, #ffb800, #ff8a00);
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.detail__text_color {
+  color: #ffb800;
+}
+.container-two {
+  grid-template-columns: 1.5fr 1fr;
+}
+.img-two {
+  border-radius: 20px 0 0 20px;
+}
+.CTA {
+  background-image: url("/file.img/FON.svg");
+  min-height: 400px;
+  display: grid;
+  grid-template-columns: 0.9fr 1.2fr 0.9fr;
+  margin-top: 80px;
+}
+.CTA__container {
+  display: grid;
+  grid-column: 2;
+  grid-row: 0.5fr 2fr;
+}
+.CTA__title {
+  color: white;
+  font-size: 57px;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0;
+}
+.CTA__button {
+  justify-self: center;
+  height: max-content;
+  background: #f17228;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.footer {
+  background: #212121;
+  color: #f5f5f5;
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+}
+.footer__title {
+  grid-column: 2;
+  font-size: 22px;
+  font-weight: bold;
+}
+.footer__our_top_cities {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(154px, auto));
+  justify-content: space-between;
+  padding: 0 0 80px 0;
+  border-bottom: 1px solid #424242;
+}
+.list {
+  list-style-type: none;
+  padding: 0;
+  font-family: Trebuchet MS, sans-serif;
+  /* color: #f5f5f5; */
+  font-size: 18px;
+  /* font-weight: bold; */
+}
+.menu_subscription_rights {
+  padding: 60px 0;
+  grid-row: 3;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr;
+  border-bottom: 1px solid #424242;
+}
+.menu_subscription_rights__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(154px, auto));
+  justify-content: space-between;
+}
+.follow_subscription {
+  grid-column: 3;
+}
+.follow_subscription__button {
+  border-radius: 5px;
+  color: #9e9e9e;
+  font-size: 18px;
+  border: 2px solid #424242;
+  background-color: #424242;
+  margin-top: 30px;
+  padding: 8px 10px;
+  font-weight: bold;
+}
+.follow_subscription__button_mail {
+  font-size: 15px;
+  background: linear-gradient(to right, #ffb800, #ff8a00);
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  padding: 12px 20px 12px 20px;
+}
+.hr_rights {
+  grid-row: 4;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  justify-content: space-between;
+  padding: 10px 0 60px 0;
+}
+.hr_rights__made_with {
+  text-align: end;
+}
+.follow_subscription__font {
+  font-weight: bold;
+}
+.follow_subscription__icon {
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 1784px) {
+  .proba {
+    grid-template-columns: 7.5% 85% 7.5%;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .Popular_items__container {
+    grid-template-columns: 1.8fr 1.8fr 1.8fr 1.8fr;
+    gap: 20px;
+    justify-items: center;
+  }
+  .Popular_items__item1 {
+    grid-column: 1;
+  }
+  .Popular_items__arrow {
+    display: none;
+  }
+  .Popular_items__arrow2 {
+    display: none;
+  }
+  .Search-by-food {
+    display: grid;
+    /* max-width: 1920px; */
+    grid-template-columns: 4% 92% 4%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .food_sale_container {
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+  }
+  .food_sale_container__block_1 {
+    grid-column: 1/2;
+  }
+  .Search-by-food__header {
+    grid-template-columns: 75% 10% 15%;
+  }
+  .features__card {
+    grid-template-columns: repeat(2, auto);
+  }
+  .quick-delivery {
+    grid-column: span 2;
+  }
+  .Quick-Delivery_pictures {
+    justify-self: end;
+  }
+  .border {
+    border-right: none;
+  }
+  .app-download {
+    grid-template-columns: 1fr;
+  }
+  .app-download__wrapper {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-column: 1;
+    gap: 50px;
+  }
+  .app-download__title {
+    text-align: center;
+  }
+  .app-download__description {
+    text-align: center;
+  }
+  .app-download__phone {
+    grid-row: 2;
+  }
+  .app-download__text-button {
+    grid-row: 1;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .top-nav {
+    grid-template-columns: 0.5fr 6.2fr 2.8fr 0.5fr;
+  }
+  .header__header-right {
+    padding-left: 5px;
+  }
+  .Popular_items__container {
+    grid-template-columns: 1.8fr 1.8fr 1.8fr;
+    row-gap: 10px;
+  }
+  .proba {
+    grid-template-columns: 3.5% 93% 3.5%;
+  }
+  .Search-by-food__header {
+    grid-template-columns: 60% 15% 25%;
+  }
+  .detail__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.8fr;
+    /* height: max-content; */
+  }
+  .detail__titles {
+    grid-column: 2;
+    align-self: center;
+    justify-self: center;
+  }
+  .detail__description {
+    grid-row: 2;
+  }
+  .detail__img {
+    border-radius: 20px 20px 0 0;
+    /* height: 100%; */
+  }
+  .CTA {
+    background: #ffb30e;
+  }
+
+  @media screen and (max-width: 1160px) {
+    .top-nav {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 2;
+      justify-items: center;
+      padding-bottom: 20px;
+    }
+    .top-nav__logo {
+      grid-column: 1;
+    }
+    .top-nav__search {
+      grid-row: 2;
+    }
+    .top-nav__user {
+      grid-row: 2;
+    }
+    .top-nav__search-and-login {
+      justify-self: center;
+    }
+    .food_sale_container {
+      grid-template-columns: 1fr 1fr;
+    }
+    .header {
+      display: grid;
+      grid-template-columns: 1fr;
+      background: #ffb30e;
+      height: 950px;
+      justify-items: center;
+      align-content: start;
+    }
+    .header__header-left {
+      grid-column: 1;
+      order: 2;
+      display: grid;
+      justify-items: center;
+    }
+    .header__order-card {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      width: 100vw;
+    }
+    .header__button_find_food {
+      margin-left: 0;
+      /* grid-row: 2; */
+    }
+    .header__adress {
+      grid-template-columns: 1fr;
+    }
+    .header__local_img {
+      margin-right: 10px;
+    }
+    .header__header-right {
+      padding-left: 0;
+    }
+    .Popular_items__container {
+      grid-template-columns: 1.8fr 1.8fr;
+    }
+  }
+  @media screen and (max-width: 850px) {
+    .features__card {
+      grid-template-columns: 1fr;
+    }
+    .quick-delivery {
+      grid-column: 1;
+    }
+    .Quick-Delivery_pictures {
+      justify-self: end;
+    }
+    .border {
+      border-right: none;
+    }
+    .features__pictures1 {
+      justify-self: end;
+    }
+  }
+  @media screen and (max-width: 775px) {
+    .food_sale_container {
+      grid-template-columns: 1fr;
+    }
+    .header {
+      height: 890px;
+    }
+    .header__title {
+      font-size: 60px;
+      text-align: center;
+    }
+    .header__subtitle {
+      font-size: 20px;
+      text-align: center;
+    }
+    .circle {
+      max-width: 100%;
+    }
+    .How_Does_It_Work__container {
+      grid-template-columns: 2.25fr 2.25fr;
+    }
+    .How_Does_It_Work__select_location {
+      grid-column: 1/2;
+    }
+    .Popular_items__container {
+      grid-template-columns: 1.8fr;
+    }
+    .Search-by-food__header {
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-items: center;
+    }
+    .Search-by-food__View-all-element {
+      justify-self: center;
+    }
+    .Search-by-food__button {
+      justify-self: center;
+    }
+    .app-download__phone-img {
+      width: 100%;
+    }
+    .app-download__button_container {
+      grid-template-columns: 1fr;
+      row-gap: 10px;
+    }
+    .app-download__wrapper {
+      gap: 20px;
+    }
+    .app-download__button {
+      justify-self: center;
+    }
+    .detail__container {
+      grid-template-rows: 0.3fr 1fr;
+    }
+    @media screen and (max-width: 596px) {
+      .food_sale_container__photo {
+        max-width: 100%;
+      }
+      .header__order-card {
+        max-width: max-content;
+      }
+      .How_Does_It_Work__container {
+        grid-template-columns: 1fr;
+      }
+      .How_Does_It_Work__title {
+        font-size: 35px;
+      }
+      .Featured-Restaurants__foodworld {
+        max-width: 100%;
+      }
+      .Search-by-food__items {
+        justify-content: stretch;
+        justify-items: center;
+      }
+      .Search-by-food__header {
+        grid-template-columns: 1fr;
+      }
+      .Search-by-food__button {
+        justify-self: center;
+      }
+      .Search-by-food__title {
+        text-align: center;
+      }
+      .features__card-elements {
+        grid-template-columns: 1fr;
+        justify-self: center;
+      }
+    }
+    @media screen and (max-width: 471px) {
+      .header__order-card {
+        padding: 2px;
+      }
+      .header {
+        height: 900px;
+      }
+      .header__input {
+        width: 200px;
+      }
+      .Featured-Restaurants__foodworld {
+        max-width: 100%;
+      }
+      .proba {
+        grid-template-columns: 1fr;
+      }
+      .Featured-Restaurants__container {
+        grid-column: 1;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      }
+      .menu_subscription_rights {
+        padding: 60px 0;
+        grid-row: 3;
+        grid-column: 2;
+        grid-template-columns: 1fr;
+      }
+      .follow_subscription {
+        grid-column: 1;
+      }
+
+      @media screen and (max-width: 350px) {
+        .Featured-Restaurants__discount-and-fast {
+          bottom: 340px;
+        }
+        .features__card {
+          padding: 40px 30px;
+        }
+        .footer__our_top_cities {
+          justify-content: center;
+        }
+        .footer__title {
+          text-align: center;
+        }
+        .menu_subscription_rights__wrapper {
+          justify-content: center;
+        }
+        .follow_subscription__button {
+          max-width: 160px;
+        }
+        .hr_rights__made_with {
+          text-align: start;
+        }
+        .follow_subscription {
+          justify-content: center;
+        }
+      }
+      @media screen and (max-width: 300px) {
+        .header {
+          height: 800px;
+        }
+        .top-nav__search-and-login {
+          max-width: 200px;
+        }
+        .top-nav__logo {
+          /* max-width: 100px; */
+          justify-self: center;
+        }
+        .Featured-Restaurants__discount-and-fast {
+          bottom: 300px;
+        }
+        .Popular_items__photo-food {
+          width: 100%;
+        }
+        .detail__container {
+          grid-template-rows: auto auto;
+        }
+      }
+    }
+  }
+}
