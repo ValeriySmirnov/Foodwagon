@@ -1028,9 +1028,6 @@
         .follow_subscription {
           justify-content: center;
         }
-        .header__header-left {
-          width: 275px;
-        }
       }
       @media screen and (max-width: 300px) {
         .header {
