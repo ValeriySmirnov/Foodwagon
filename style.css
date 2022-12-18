@@ -942,7 +942,7 @@
         max-width: 100%;
       }
       .header__order-card {
-        max-width: max-content;
+        width: max-content;
       }
       .How_Does_It_Work__container {
         grid-template-columns: 1fr;
@@ -972,10 +972,10 @@
       }
     }
     @media screen and (max-width: 471px) {
-      .header__order-card {
+      /* .header__order-card {
         padding: 2px;
-        /* max-width: max-content; */
-      }
+        max-width: max-content;
+      } */
       .header {
         height: 900px;
       }
