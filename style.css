@@ -974,7 +974,7 @@
     @media screen and (max-width: 471px) {
       .header__order-card {
         padding: 2px;
-        max-width: max-content;
+        /* max-width: max-content; */
       }
       .header {
         height: 900px;
