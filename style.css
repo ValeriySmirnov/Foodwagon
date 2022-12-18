@@ -1002,6 +1002,9 @@
       .follow_subscription {
         grid-column: 1;
       }
+      .header__button_find_food {
+        width: max-content;
+      }
 
       @media screen and (max-width: 350px) {
         .Featured-Restaurants__discount-and-fast {
