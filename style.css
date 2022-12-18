@@ -1049,9 +1049,6 @@
         .detail__container {
           grid-template-rows: auto auto;
         }
-        .header__header-left {
-          justify-items: start;
-        }
       }
     }
   }
